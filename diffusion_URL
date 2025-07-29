@@ -1,0 +1,95 @@
+https://diffusion.csail.mit.edu/#lectures
+
+Introduction to Flow Matching and Diffusion Models
+MIT Computer Science Class 6.S184: Generative AI with Stochastic Differential Equations
+Diffusion and flow-based models have become the state of the art for generative AI across a wide range of data modalities, including images, videos, shapes, molecules, music, and more! This course aims to build up the mathematical framework underlying these models from first principles. At the end of the class, students will have built a toy image diffusion model from scratch, and along the way, will have gained hands-on experience with the mathematical toolbox of stochastic differential equations that is useful in many other fields. This course is ideal for students who want to develop a principled understanding of the theory and practice of generative AI.
+
+
+Course Notes
+The course notes serve as the backbone of the course and provide a self-contained explanation of all material in the class. In contrast, lectures slides will generally not be self-contained and are intended to provide accompanying visualizations during the lecture. You may view the notes by clicking on the colored link below.
+
+View the course notes here!
+Lectures
+Lecture	Topic	Slides	Recording
+1	Flow and Diffusion Models
+Introduction to generative models
+Ordinary and stochastic differential equations
+Sampling from flow and diffusion models
+[slides 1]	
+2	Constructing a Training Target
+Conditional and marginal probability paths
+Continuity and Fokker-Planck equations
+Marginal vector field and marginal score function
+[slides 2]	
+3	Training Flow and Diffusion Models
+Flow matching
+Score matching
+Various approaches to diffusion models
+[slides 3]	
+4	Building an Image Generator
+Guidance and conditional generation
+Neural network architectures
+Survey of state-of-the-art models
+[slides 4]	
+5	Generative Robotics
+Guest lecture by Benjamin Burchfiel (Toyota Research)
+Large behavior models
+Diffusion models for robotics
+N/A	
+6	Generative Protein Design
+Guest lecture by Jason Yim (MIT)
+Designing new proteins with AI
+Flow matching for protein structure generation
+[slides 6]	
+Labs
+There are 3 labs given as exercises accompanying the class to give you hands-on practical experience. The labs will guide you through building a flow matching and diffusion model from scratch step-by-step. To do the exercises, perform the following steps:
+Click on the "Open in Colab" link to open the lab in Google Drive.
+Click on the "Open in Google Colaboratory" link at the center top of the page. A jupyter notebook should appear.
+Click on "File" → "Save a copy in Drive" to save a copy of the lab to your own Google Drive.
+Follow the instructions in the lab to complete the exercises.
+Lab 1: Working with SDEs
+Open in Colab
+Lab 2: Flow Matching and Score Matching
+Open in Colab
+Lab 3: Conditional Image Generation
+Open in Colab
+Stuck? Solutions can be found here.
+
+Instructors
+This class was co-taught by Peter and Ezra. We are fortunate to have Tommi Jaakkola as our sponsor and advisor.
+
+Instructor Photo
+Peter Holderrieth
+PhD Student
+
+Instructor Photo
+Ezra Erives
+MEng Student
+
+Prerequisites: Linear algebra, real analysis, and basic probability theory. Students should be familiar with Python and have some experience with PyTorch.
+
+Questions? Email either Peter or Ezra!
+
+Remark about LLMs: This course does not cover large language models (LLMs). LLMs involve discrete data such as text, while this course focuses on data lying in continuous spaces such as images, videos, and protein structures.
+
+Acknowledgements
+We would like to thank the following individuals and organizations without whose support this course would not be possible:
+Professor Tommi Jaakkola without whose support this class would not be possible
+Lisa Bella, Ellen Reid, and everyone else at MIT EECS for their generous support
+Christian Fiedler, Tim Griesbach, Benedikt Geiger, and Albrecht Holderrieth for invaluable feedback on the lecture notes
+Elaine Mello from MIT Open Learning for support with lecture recordings
+Ashay Athalye from Students for Open and Universal Learning for helping to edit and publish lecture recordings
+Cameron Diao, Tally Portnoi, Andi Qu, Roger Trullo, Ádám Burián, Zewen Yang, and many others for their invaluable contributions to the labs
+The Missing Semester of Your CS Education upon whose website this one was inspired
+Participants in the original course offering (MIT 6.S184/6.S975, taught over IAP 2025), as well as readers like you for your interest in this course
+Thank you!
+
+To cite this course, please use:
+  @misc{flowsanddiffusions2025,
+    author       = {Peter Holderrieth and Ezra Erives},
+    title        = {Introduction to Flow Matching and Diffusion Models},
+    year         = {2025},
+    url          = {https://diffusion.csail.mit.edu/}
+  }
+Source code.
+
